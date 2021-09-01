@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Travel</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="brand-and-toggler">
+        <div class="navbar-brand"><img src="./imgs/logo.png" alt="" /></div>
+        <button class="navbar-toggler"><i class="fas fa-bars"></i></button>
+      </div>
+
+      <div class="navbar-collapse">
+        <button class="navbar-close"><i class="fas fa-times"></i></button>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link active">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="gallery.html" class="nav-link">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a href="blog.html" class="nav-link">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <header class="header">
+      <div class="container">
+        <div class="header-title">
+          <h1>Gallery</h1>
+          <p class="sub-title">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id
+            nisi purus. Duis purus urna, laoreet a dignissim eget, vestibulum
+            nec mauris. Nullam volutpat risus nec lorem eleifend rutrum.
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <!--gallery-->
+
+    <section class="gallery py-5">
+      <div class="container">
+        <div class="gallery-wrapper">
+          <!--item-->
+          <div class="gallery-item">
+            <img src="./imgs/gallery-1.jpeg" alt="" />
+            <span class="zoom-in"><i class="fas fa-search-plus"></i></span>
+          </div>
+
+          <!---end item-->
+
+          <!--item-->
+          <div class="gallery-item">
+            <img src="./imgs/gallery-2.jpeg" alt="" />
+            <span class="zoom-in"><i class="fas fa-search-plus"></i></span>
+          </div>
+
+          <!---end item-->
+
+          <!--item-->
+          <div class="gallery-item">
+            <img src="./imgs/gallery-3.jpeg" alt="" />
+            <span class="zoom-in"><i class="fas fa-search-plus"></i></span>
+          </div>
+
+          <!---end item-->
+
+          <!--item-->
+          <div class="gallery-item">
+            <img src="./imgs/gallery-4.jpeg" alt="" />
+            <span class="zoom-in"><i class="fas fa-search-plus"></i></span>
+          </div>
+
+          <!---end item-->
+
+          <!--item-->
+          <div class="gallery-item">
+            <img src="./imgs/gallery-5.jpeg" alt="" />
+            <span class="zoom-in"><i class="fas fa-search-plus"></i></span>
+          </div>
+
+          <!---end item-->
+
+          <!--item-->
+          <div class="gallery-item">
+            <img src="./imgs/gallery-6.jpeg" alt="" />
+            <span class="zoom-in"><i class="fas fa-search-plus"></i></span>
+          </div>
+
+          <!---end item-->
+
+          <!--item-->
+          <div class="gallery-item">
+            <img src="./imgs/gallery-7.jpeg" alt="" />
+            <span class="zoom-in"><i class="fas fa-search-plus"></i></span>
+          </div>
+
+          <!---end item-->
+
+          <!--item-->
+          <div class="gallery-item">
+            <img src="./imgs/gallery-8.jpeg" alt="" />
+            <span class="zoom-in"><i class="fas fa-search-plus"></i></span>
+          </div>
+
+          <!---end item-->
+
+          <!--item-->
+          <div class="gallery-item">
+            <img src="./imgs/gallery-9.jpeg" alt="" />
+            <span class="zoom-in"><i class="fas fa-search-plus"></i></span>
+          </div>
+
+          <!---end item-->
+        </div>
+      </div>
+    </section>
+
+    <!---img modal-->
+    <div id="img-modal-box">
+      <div id="img-modal">
+        <button id="modal-close-btn">
+          <i class="fas fa-times"></i>
+        </button>
+        <button id="prev-btn"><i class="fas fa-chevron-left"></i></button>
+        <button id="next-btn"><i class="fas fa-chevron-right"></i></button>
+        <img src="./imgs/gallery1.jpeg" alt="" />
+      </div>
+    </div>
+
+    <!--popular-->
+    <section class="popular py-5">
+      <div class="title">
+        <p class="sm-titlt">Know more about popular destination</p>
+        <h2>Popular destination</h2>
+      </div>
+      <div class="popular-wrapper">
+        <!--item-->
+        <div class="popular-item">
+          <img src="./imgs/popular1.jpeg" alt="" />
+          <div>
+            <span>Iceland</span>
+            <ul class="ratings">
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li>&nbsp;500 reviews</li>
+            </ul>
+            <p class="text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id
+              nisi purus. Duis purus urna, laoreet a dignissim eget, vestibulum
+              nec mauris. Nullam volutpat risus nec lorem eleifend rutrum.
+            </p>
+          </div>
+        </div>
+        <!--end item-->
+
+        <!--item-->
+        <div class="popular-item">
+          <img src="./imgs/popular2.jpeg" alt="" />
+          <div>
+            <span>New Zealand</span>
+            <ul class="ratings">
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li>&nbsp;500 reviews</li>
+            </ul>
+            <p class="text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id
+              nisi purus. Duis purus urna, laoreet a dignissim eget, vestibulum
+              nec mauris. Nullam volutpat risus nec lorem eleifend rutrum.
+            </p>
+          </div>
+        </div>
+        <!--end item-->
+
+        <!--item-->
+        <div class="popular-item">
+          <img src="./imgs/popular3.jpeg" alt="" />
+          <div>
+            <span>Japan</span>
+            <ul class="ratings">
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li>&nbsp;500 reviews</li>
+            </ul>
+            <p class="text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id
+              nisi purus. Duis purus urna, laoreet a dignissim eget, vestibulum
+              nec mauris. Nullam volutpat risus nec lorem eleifend rutrum.
+            </p>
+          </div>
+        </div>
+        <!--end item-->
+
+        <!--item-->
+        <div class="popular-item">
+          <img src="./imgs/popular4.jpeg" alt="" />
+          <div>
+            <span>Paris</span>
+            <ul class="ratings">
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li>&nbsp;500 reviews</li>
+            </ul>
+            <p class="text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id
+              nisi purus. Duis purus urna, laoreet a dignissim eget, vestibulum
+              nec mauris. Nullam volutpat risus nec lorem eleifend rutrum.
+            </p>
+          </div>
+        </div>
+        <!--end item-->
+
+        <!--item-->
+        <div class="popular-item">
+          <img src="./imgs/popular5.jpeg" alt="" />
+          <div>
+            <span>America</span>
+            <ul class="ratings">
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li>&nbsp;500 reviews</li>
+            </ul>
+            <p class="text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id
+              nisi purus. Duis purus urna, laoreet a dignissim eget, vestibulum
+              nec mauris. Nullam volutpat risus nec lorem eleifend rutrum.
+            </p>
+          </div>
+        </div>
+        <!--end item-->
+
+        <!--item-->
+        <div class="popular-item">
+          <img src="./imgs/popular6.jpeg" alt="" />
+          <div>
+            <span>England</span>
+            <ul class="ratings">
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li>&nbsp;500 reviews</li>
+            </ul>
+            <p class="text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id
+              nisi purus. Duis purus urna, laoreet a dignissim eget, vestibulum
+              nec mauris. Nullam volutpat risus nec lorem eleifend rutrum.
+            </p>
+          </div>
+        </div>
+        <!--end item-->
+
+        <!--item-->
+        <div class="popular-item">
+          <img src="./imgs/popular7.jpeg" alt="" />
+          <div>
+            <span>Dubai</span>
+            <ul class="ratings">
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li>&nbsp;500 reviews</li>
+            </ul>
+            <p class="text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id
+              nisi purus. Duis purus urna, laoreet a dignissim eget, vestibulum
+              nec mauris. Nullam volutpat risus nec lorem eleifend rutrum.
+            </p>
+          </div>
+        </div>
+        <!--end item-->
+
+        <!--item-->
+        <div class="popular-item">
+          <img src="./imgs/popular8.jpeg" alt="" />
+          <div>
+            <span>Maldives</span>
+            <ul class="ratings">
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li>&nbsp;500 reviews</li>
+            </ul>
+            <p class="text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id
+              nisi purus. Duis purus urna, laoreet a dignissim eget, vestibulum
+              nec mauris. Nullam volutpat risus nec lorem eleifend rutrum.
+            </p>
+          </div>
+        </div>
+        <!--end item-->
+
+        <!--item-->
+        <div class="popular-item">
+          <img src="./imgs/popular9.jpeg" alt="" />
+          <div>
+            <span>Greece</span>
+            <ul class="ratings">
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li>&nbsp;500 reviews</li>
+            </ul>
+            <p class="text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id
+              nisi purus. Duis purus urna, laoreet a dignissim eget, vestibulum
+              nec mauris. Nullam volutpat risus nec lorem eleifend rutrum.
+            </p>
+          </div>
+        </div>
+        <!--end item-->
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-wrapper">
+          <div class="footer-item">
+            <a href="#index.html" class="navbar-brand"> Travel</a>
+            <p class="text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse mollis scelerisque luctus. Proin vitae tempus nisl, at
+              feugiat odio. Nunc consequat tellus ut urna tincidunt scelerisque.
+            </p>
+          </div>
+
+          <div class="footer-item">
+            <h2>Follow Us:</h2>
+            <ul class="social-icons">
+              <li>
+                <a href=""><i class="fab fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fab fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fab fa-pinterest"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fab fa-instagram"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fab fa-google-plus"></i></a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-item">
+            <h2>Useful Links</h2>
+            <ul>
+              <li><a href="">Destinations</a></li>
+              <li><a href="">Travel Guide</a></li>
+              <li><a href="">Package Trip</a></li>
+              <li><a href="">Tour</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-item subscribe">
+            <h2>Subscribe for Newsletter</h2>
+            <form>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Your Email"
+              />
+              <input type="submit" class="btn" value="Subscribe" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
